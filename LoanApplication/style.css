@@ -1,0 +1,109 @@
+
+.bo {
+   
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form h1{
+    text-align: center;
+    color:  rgb(236, 12, 117);
+    font-size: 50px;
+}
+form {
+    background-color: #e2ddde;
+    border: 1px #000000;
+    border-radius: 10px;
+    padding-left: 55px;
+    padding-right: 30px;
+    width: 900px;
+    height: 430px;
+    overflow: hidden;
+    font-family: roboto;
+    text-align: left;
+}
+.form {
+    text-align: center;
+    height: fit-content;
+    color:  rgb(236, 12, 117);
+    font-size: 15px;
+    
+}
+
+input{
+    width: 383px;
+    border: none;
+    padding: 10px;
+    background-color: white;
+    color: rgb(71, 66, 66);
+    border-radius: 5px;
+   
+}
+.t {
+    color: rgb(236, 12, 117);
+}
+ .t input {
+    width: 20px;
+     border-radius: 5px;
+    
+}
+option{
+   width: 398px;
+   height: 24px;
+   background-color: white;
+   color: rgb(71, 66, 66);
+  border-radius: 5px;
+}
+.group input{
+    
+    -webkit-appearance: button;
+    cursor: pointer;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 400px;
+    text-align: center;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+   height: 40px;
+   width: 80px;
+
+    border-radius: 4px;
+}
+.btn-warning{
+     color: #fff;
+    background-color: orange;
+    border-color: #2e6da4;
+   
+   
+     -webkit-appearance: button;
+    cursor: pointer;
+    width: 180px;
+    text-align: center;
+   height: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   text-decoration: none;
+    border-radius: 4px;
+}
+.btn-danger{
+    color: #fff;
+    background-color: red;
+    border-color: #2e6da4;
+     -webkit-appearance: button;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+   height: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   text-decoration: none;
+    border-radius: 4px;
+}

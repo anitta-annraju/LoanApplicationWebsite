@@ -1,0 +1,103 @@
+body{
+    margin: 10px;
+}
+.register,
+.login{
+   margin-top: 120px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.wrapper h2{
+    text-align: center;
+    color:rgb(87, 157, 223);
+    font-size: 30px;
+}
+
+p{
+text-align: center;    
+}
+
+form {
+    background-color: whitesmoke;
+    padding-right: 0px;
+    padding-left: 60px;
+    width: 470px;
+     border: 1px solid #04c2c9;
+     border-radius: 10px;
+    overflow: hidden;
+    font-family: roboto;
+    text-align: left;
+}
+
+.login form{
+    height: 350px;
+}
+
+.register form{
+    height: 400px;
+}
+.wrapper {
+    text-align: center;
+    height: fit-content;
+    color:  rgb(236, 12, 117);
+    font-size: 15px;
+    
+}
+
+input{
+    width: 383px;
+    border: none;
+    padding: 10px;
+    background-color: #e2ddde;
+    color: rgb(71, 66, 66);
+    border-radius: 10px;
+   
+}
+.t {
+    color: #646568;
+}
+ .t input {
+    width: 20px;
+    
+}
+option{
+   width: 398px;
+   height: 24px;
+   background-color: white;
+   color: rgb(71, 66, 66);
+}
+.group input{
+    
+    -webkit-appearance: button;
+    cursor: pointer;
+    width: 80px;
+    margin-top: 10px;
+   
+    text-align: center;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+   height: 40px;
+   width: 80px;
+    border-radius: 4px;
+}
+
+.btn-default{
+    background-color: white;
+   border: 1px solid black;
+  
+}
+.link{
+  text-decoration: none;
+  color: blue;
+  
+}
